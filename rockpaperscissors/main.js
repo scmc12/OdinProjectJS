@@ -40,14 +40,14 @@ function validateInput(choice) {
   return choices.includes(choice);
 }
 
-function checkWinner(choiceP, choiceC) {
-  console.log(choiceP, choiceC);
-  if (choiceP === choiceC) {
+function checkWinner(choicePlayer, choiceComputer) {
+  console.log(choicePlayer, choiceComputer);
+  if (choicePlayer === choiceComputer) {
     return "Tie";
   } else if (
-    (choiceP === "rock" && choiceC === "scissors") ||
-    (choiceP === "paper" && choiceC === "rock") ||
-    (choiceP === "scissors" && choiceC === "paper")
+    (choicePlayer === "rock" && choiceComputer === "scissors") ||
+    (choicePlayer === "paper" && choiceComputer === "rock") ||
+    (choicePlayer === "scissors" && choiceComputer === "paper")
   ) {
     return "You win";
   } else {
