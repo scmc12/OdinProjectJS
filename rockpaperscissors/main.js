@@ -1,36 +1,3 @@
-// function to start game
-// function for computer choice
-// buttons calls for player choice
-// loop to play five timees
-
-// const playerChoice = ["rock", "paper", "scissors"];
-// document.querySelector("button").addEventListener("click", playRound);
-
-// function getComputerChoice() {
-//   let random = Math.random();
-//   if (random < 0.33) {
-//     return "rock";
-//   } else if (random < 0.66) {
-//     return "paper";
-//   } else {
-//     return "scissors";
-//   }
-// }
-
-// function playRound(playerChoice, computerChoice) {
-//   if (
-//     (playerChoice == "rock" && computerChoice == "scissors") ||
-//     (playerChoice == "paper" && computerChoice == "rock") ||
-//     (playerChoice == "scissors" && computerChoice == "paper")
-//   ) {
-//     console.log("You win!");
-//   } else if (playerChoice === computerChoice) {
-//     console.log("You tied!");
-//   } else {
-//     console.log("You lose!");
-//   }
-// }
-
 const choices = ["rock", "paper", "scissors"];
 
 function game() {
