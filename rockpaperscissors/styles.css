@@ -1,0 +1,26 @@
+* {
+  border-style: border-box;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+button {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+}
